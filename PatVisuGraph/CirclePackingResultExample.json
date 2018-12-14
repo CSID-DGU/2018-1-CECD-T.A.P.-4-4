@@ -1,0 +1,26 @@
+﻿{
+    "name": "산업기술",
+    "children": [
+        {
+            "name": "인공지능",
+            "children": [
+                {"name": "학습방법", "size": 3938, "Color" : "#A48DA5"}
+            ]
+        },
+        {
+            "name": "자물쇠관련",
+            "children": [
+                {"name": "일반 자물쇠", "size": 3534, "Color" : "#CBD38C"},
+                {"name": "전기부호 자물쇠", "size": 5731, "Color": "#97A719"},
+                {"name": "특수구조 자물쇠", "size": 2237, "Color": "#E0E4BA"}
+            ]
+        },
+        {
+            "name": "전자보안통신",
+            "children": [
+                {"name": "통신방식", "size": 5089, "Color": "#7396AA"},
+                {"name": "키관리 시스템", "size": 2493, "Color": "#C3D2DA"}
+            ]
+        }
+    ]
+}
