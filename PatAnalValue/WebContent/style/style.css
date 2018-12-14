@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+#accNationHorizontalBar, #accClassHorizontalBar{
+	width : 480px;
+	height : 480px;
+	border : 1px solid blue;
+}
+
+div.header{
+	height: 50px;
+	width: 720px;
+	text-align: center;
+	font-size: 1.5em;	
+}
+
+.tab{
+	overflow : hidden;
+	border : 1px solid #ccc;
+	background-color : #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
+
+svg text.percent{
+	fill:white;
+	text-anchor:middle;
+	font-size:12px;
+}
+
+.bar--positive {
+  fill: steelblue;
+}
+
+.bar--positive:hover{
+	fill:skyblue;
+}
+
+.bar--negative {
+  fill: red;
+}
+
+.bar--negative:hover{
+	fill:orange;
+}
+
+.line{
+	fill: none;
+	stroke: #595959;
+	stroke-width: 3px;
+}
+
+th{
+	display: table-cell;
+	vertical-align: inherit;
+	font-weight: bold;
+	text-align: center;
+	background-color: #7e5c7f;
+	color: white;
+	border: 1px solid #000000;
+}
+
+td{
+	text-align: center;
+	display: table-cell;
+	border: 1px solid #000000;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root/*,
+.node--leaf */{
+  pointer-events: none;
+}

@@ -1,0 +1,54 @@
+table.type11 {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 10px;
+    
+    
+  
+}
+table.type11 th {
+   
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #fff;
+    background: #2F9AFE ;
+    text-align: center;
+}
+table.type11 td {
+   
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
+
+table.type05 {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    margin: 20px 10px;
+   
+}
+table.type05 th {
+   
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background: #efefef;
+}
+table.type05 td {
+   
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
